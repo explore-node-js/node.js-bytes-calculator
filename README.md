@@ -18,7 +18,7 @@ abstract and easy way how to work with bytes in JS
  * npm v3+
 
 ## used technologies
- * jest
+ * jest _[for tests only]_
  
 ## how to execute tests
  `npm test` or, to execute tests with coverage `npm test -- --coverage`
