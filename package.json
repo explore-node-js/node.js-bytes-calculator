@@ -1,7 +1,8 @@
 {
-    "description": "byte flag calculator",
-    "main": "src/byte_flag_calculator.js",
+    "name": "node-bytes-calculator",
     "version": "0.1.0",
+    "description": "bytes flag calculator",
+    "main": "src/byte_flag_calculator.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/explore-node-js/node.js-byte-flag-calculator.git"
