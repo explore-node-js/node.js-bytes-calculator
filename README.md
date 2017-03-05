@@ -1,5 +1,5 @@
 # node.js-bytes-calculator
-abstract way to how work with bytes
+abstract and easy way how to work with bytes in JS
 
 ## software requirements
  * node.js v6.9+ [with v8 enabled]
