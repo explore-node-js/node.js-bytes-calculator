@@ -8,8 +8,6 @@ module.exports = class ByteFlagCalculator {
     }
 
     static removeBytes(flags, flag) {
-        return ByteFlagCalculator.hasBytes(flags, flag)
-            ? flags & ~flag
-            : flags;
+        return flags & ~flag;
     }
 };
