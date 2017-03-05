@@ -1,6 +1,6 @@
 {
     "name": "node-bytes-calculator",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "bytes flag calculator",
     "main": "src/byte_flag_calculator.js",
     "repository": {
