@@ -13,6 +13,9 @@
 # node.js-bytes-calculator
 abstract and easy way how to work with bytes in JS
 
+## how to install
+`npm install node-bytes-calculator`
+
 ## software requirements
  * node.js v6.9+ [with v8 enabled]
  * npm v3+
