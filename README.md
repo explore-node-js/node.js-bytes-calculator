@@ -14,30 +14,37 @@
 abstract and easy way how to work with bytes in JS
 
 ## how to install
-`npm install node-bytes-calculator` or `yarn add node-bytes-calculator`
+
+`$ npm install sequence-calculator` or `yarn add sequence-calculator`
 
 ## software requirements
- * node.js v6.9+ [with v8 enabled]
- * npm v3+
+
+* node.js v6.9+ [with v8 enabled]
+* npm v3+
 
 ## used technologies
- * jest _[for tests only]_
- 
+
+* jest _[for tests only]_
+
 ## how to execute tests
- `npm test` or, to execute tests with coverage `npm test -- --coverage`
+
+`$ npm test` or, to execute tests with coverage `npm test -- --coverage`
 
 ## how to use
-`import calc from "node-bytes-calculator";` or `const calc = require("node-bytes-calculator");`
 
-```
-calc.hasBytes(0xff, 0x0f) -> return true as 0xff contains 0x0f bytes
-calc.hasBytes(0x02, 0x08) -> retuns false as 0x02 do not contains 0x08 bytes
+`import { hasSequence, addSequence, removeSequence } from 'sequence-calculator';` or
+`const { hasSequence, addSequence, removeSequence } = require('sequence-calculator');`
 
-calc.addBytes(0x02, 0x02) -> returns 0x02
-calc.addBytes(0x01, 0x02) -> returns 0x03
+## examples
 
-calc.removeBytes(0x00, 0x01) -> returns 0x00 as there where no bytes
-calc.removeBytes(0x06, 0x02) -> returns 0x04 as 0x02 bytes been delete removed from 0x06
-calc.removeBytes(0x02, 0x06) -> returns 0x00 as 0x06 bytes contained 0x02 bytes,
-                                                which been removed from origin 0x02
+```javascript
+hasSequence(255,  0x0f) -> returns true {true}, as 0xFF {255} contains 0xF {15}
+hasSequence(0b10, 0o10) -> returns false {false}, as 0x02 {2} do not contains 0x08 {8}
+
+addSequence(0x02, 0x02) -> returns 0x02 {2}, as sequence 0x02 {2} already contains 0x01 {2}
+addSequence(0o01, 0b10) -> returns 0x03 {3}, as sequence 0x01 {1} do not contain 0x02 {2}
+
+removeSequence(0x00,  0x01) -> returns 0x00 {0}, as 0x01 {1} is not present in 0x0 {0}
+removeSequence(0o06,     2) -> returns 0x04 {4}, as 0x02 {2} been dropped 0x06 {6} sequence
+removeSequence(2,    0b110) -> returns 0x00 {0}, as 0x06 {6} sequence contained 0x02 {2}, which been removed from origin 0x02
 ```
