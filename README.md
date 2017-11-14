@@ -3,8 +3,6 @@
 [codecov.io-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
 [codecov.io-master-link]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
 
-# DEPRECATED, consider use [byte-sequence-calculator](https://www.npmjs.com/package/byte-sequence-calculator)
-
 |                  | master
 |---               |---
 | __tests__        |
@@ -12,8 +10,8 @@
 | __coverage__     |
 | _< codecov.io >_ | [![coverage][codecov.io-master-badge]][codecov.io-master-link]
 
-# node.js-bytes-calculator
-abstract and easy way how to work with bytes in JS
+# sequence-calculator
+abstract and easy way how to work with byte sequences in JS
 
 ## how to install
 
