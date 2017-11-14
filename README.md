@@ -45,5 +45,6 @@ addSequence(0o01, 0b10) -> returns 0x03 {3}, as sequence 0x01 {1} do not contain
 
 removeSequence(0x00,  0x01) -> returns 0x00 {0}, as 0x01 {1} is not present in 0x0 {0}
 removeSequence(0o06,     2) -> returns 0x04 {4}, as 0x02 {2} been dropped 0x06 {6} sequence
-removeSequence(2,    0b110) -> returns 0x00 {0}, as 0x06 {6} sequence contained 0x02 {2}, which been removed from origin 0x02
+removeSequence(2,    0b110) -> returns 0x00 {0}, as 0x06 {6} sequence contained 0x02 {2},
+                                                 which been removed from origin 0x02
 ```
