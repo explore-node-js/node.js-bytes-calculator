@@ -32,12 +32,11 @@ abstract and easy way how to work with byte sequences in JS
 
 ## how to use
 
-`import { hasSequence, addSequence, removeSequence } from 'sequence-calculator';` or
-`const { hasSequence, addSequence, removeSequence } = require('sequence-calculator');`
-
-## examples
-
 ```javascript
+/** ES6 */ import { hasSequence, addSequence, removeSequence } from 'sequence-calculator';
+/** commmonjs */ const { hasSequence, addSequence, removeSequence } = require('sequence-calculator');
+
+/** examples */
 hasSequence(255,  0x0f) -> returns true {true}, as 0xFF {255} contains 0xF {15}
 hasSequence(0b10, 0o10) -> returns false {false}, as 0x02 {2} do not contains 0x08 {8}
 
