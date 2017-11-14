@@ -3,6 +3,8 @@
 [codecov.io-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
 [codecov.io-master-link]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
 
+# DEPRECATED, consider use [byte-sequence-calculator](https://www.npmjs.com/package/byte-sequence-calculator)
+
 |                  | master
 |---               |---
 | __tests__        |
