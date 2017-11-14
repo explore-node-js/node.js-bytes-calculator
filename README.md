@@ -33,8 +33,10 @@ abstract and easy way how to work with byte sequences in JS
 ## how to use
 
 ```javascript
-/** ES6 */ import { hasSequence, addSequence, removeSequence } from 'sequence-calculator';
-/** commmonjs */ const { hasSequence, addSequence, removeSequence } = require('sequence-calculator');
+/** ES6 */
+import { hasSequence, addSequence, removeSequence } from 'sequence-calculator';
+/** commmonjs */
+const { hasSequence, addSequence, removeSequence } = require('sequence-calculator');
 
 /** examples */
 hasSequence(255,  0x0f) -> returns true {true}, as 0xFF {255} contains 0xF {15}
