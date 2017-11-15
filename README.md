@@ -3,15 +3,10 @@
 [codecov.io-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
 [codecov.io-master-link]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
 
-|                  | master
-|---               |---
-| __tests__        |
-| _< Circle CI >_  | [![build][circle.ci-master-badge]][circle.ci-master-link]
-| __coverage__     |
-| _< codecov.io >_ | [![coverage][codecov.io-master-badge]][codecov.io-master-link]
-
 # sequence-calculator
 abstract and easy way how to work with byte sequences in JS
+
+[![build][circle.ci-master-badge]][circle.ci-master-link] [![coverage][codecov.io-master-badge]][codecov.io-master-link]
 
 ## how to install
 
