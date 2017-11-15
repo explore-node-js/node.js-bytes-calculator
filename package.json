@@ -1,24 +1,29 @@
 {
-    "name": "node-bytes-calculator",
-    "version": "1.0.3",
-    "description": "bytes flag calculator",
-    "main": "src/byte_flag_calculator.js",
+    "name": "byte-sequence-calculator",
+    "version": "2.0.1",
+    "description": "byte sequence calculator, allow use bitwise operations in functional programming as well as demonstration how bitwise operations works in London IT meetups",
+    "main": "src/byte_sequence_calc.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/explore-node-js/node.js-byte-flag-calculator.git"
+    },
+    "engines": {
+        "node": ">=6"
     },
     "keywords": [
         "bitwise operations",
         "byte flag",
         "byte flag calculator",
         "byte mask",
-        "byte mask calculator"
+        "byte mask calculator",
+        "byte sequence",
+        "byte sequence calculator"
     ],
     "author": "Eugene Matvejev <eugene.matvejev@gmail.com>",
     "license": "MIT",
     "dependencies": {},
     "devDependencies": {
-        "jest": "^18.1.0"
+        "jest": "^20.0.0"
     },
     "scripts": {
         "test": "node node_modules/jest/bin/jest.js --verbose"
