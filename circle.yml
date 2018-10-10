@@ -11,7 +11,6 @@ jobs:
     docker:
       - image: circleci/node:10.4.0
     steps:
-      - checkout
       - run: npm test -- --coverage
       - run: codecov
 workflows:
