@@ -1,14 +1,23 @@
-machine:
-    node:
-        version: 6.9
-
-dependencies:
-    cache_directories:
-        - ~/.npm/
-
-test:
-    pre:
-        - npm install -g codecov
-    override:
-        - npm test -- --coverage
-        - codecov
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.4.0
+    steps:
+      - checkout
+      - run: npm i -- --verbose
+      - run: npm i -g codecov
+  test:
+    docker:
+      - image: circleci/node:10.4.0
+    steps:
+      - checkout
+      - run: npm test -- --coverage
+      - run: codecov
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test
+      
