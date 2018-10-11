@@ -7,10 +7,21 @@ jobs:
       - checkout
       - run: npm i --verbose
       - run: sudo npm i -g codecov
-  test:
-    steps:
       - run: npm test -- --coverage
-      - run: codecov
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
+  test:
+    docker:
+      - image: circleci/node:10.4.0
+    steps:
+      - checkout
+      - run: npm i --verbose
+      - run: sudo npm i -g codecov
+      - run: npm test -- --coverage
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
 workflows:
   version: 2
   build_and_test:
