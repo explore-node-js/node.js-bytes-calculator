@@ -11,8 +11,14 @@ jobs:
       - store_artifacts:
           path: coverage
           prefix: coverage
+  build:
+    docker:
+      - image: circleci/node:10.4.0
+    steps:
+      - checkout
 workflows:
-  version: 2.1
-  jobs:
-    - build
-    - test
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test
