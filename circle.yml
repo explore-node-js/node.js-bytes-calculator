@@ -12,8 +12,7 @@ jobs:
           path: coverage
           prefix: coverage
 workflows:
-  version: 2
-  test:
-    jobs:
-      - build
-      - test
+  version: 2.1
+  jobs:
+    - build
+    - test
