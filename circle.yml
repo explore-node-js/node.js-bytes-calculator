@@ -12,8 +12,23 @@ jobs:
       - store_artifacts:
           path: coverage
           prefix: coverage
+  deploy:
+    docker:
+      - image: circleci/node:10.4.0
+    steps:
+      - checkout
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: |
+          if [ "${CIRCLE_BRANCH}" == "master" ]; then
+             npm publish
+          fi  
 workflows:
   version: 2
-  test-only:
+  test-and-deploy:
     jobs:
       - test
+      - deploy
+#           requires:
+#             - test
+#           branches:
+#             only: /master/
