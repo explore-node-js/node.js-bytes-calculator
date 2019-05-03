@@ -1,31 +1,40 @@
-[circle.ci-master-badge]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master.svg?style=svg
-[circle.ci-master-link]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master
-[codecov.io-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
-[codecov.io-master-link]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
+[ci.tests-master-badge]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master.svg?style=svg
+[ci.tests-master]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master
+[ci.coverage-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
+[ci.coverage-master]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
 
 # sequence-calculator
+
 abstract and easy way how to work with byte sequences in JS
 
-[![build][circle.ci-master-badge]][circle.ci-master-link] [![coverage][codecov.io-master-badge]][codecov.io-master-link]
+[![build][ci.tests-master-badge]][ci.tests-master] [![coverage][ci.coverage-master-badge]][i.coverage-master]
 
-## how to install
+### how to install
 
-`$ npm install sequence-calculator` or `yarn add sequence-calculator`
+`$ npm i sequence-calculator` or `yarn add sequence-calculator`
 
-## software requirements
+### software requirements
 
-* node.js v6.9+ [with v8 enabled]
-* npm v3+
+* [node.js](https://nodejs.org/)
+* [npm](https://www.npmjs.com/)+ or [yarn](https://yarnpkg.com/)
 
-## used technologies
+### used technologies
 
-* jest _[for tests only]_
+* [jest](https://facebook.github.io/jest/) - for tests
 
-## how to execute tests
+### used services
 
-`$ npm test` or, to execute tests with coverage `npm test -- --coverage`
+* [circle ci](https://circleci.com/dashboard)
+* [codecov](https://codecov.io/)
+* [code climate](https://codeclimate.com/)
+* [snyk](https://snyk.io/)
 
-## how to use
+### how to execute tests
+
+* `$ npm test`
+* to execute tests with coverage `npm test -- --coverage`
+
+### how to use
 
 ```javascript
 /** ES6 */
