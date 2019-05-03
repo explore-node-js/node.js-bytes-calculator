@@ -5,7 +5,7 @@
     "main": "src/byte_sequence_calc.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/explore-node-js/node.js-byte-flag-calculator.git"
+        "url": "git+https://github.com/explore-node-js/node.js-bytes-calculator.git"
     },
     "engines": {
         "node": ">=6"
