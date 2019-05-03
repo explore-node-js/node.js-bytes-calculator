@@ -4,6 +4,7 @@
 [codecov.io-master]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
 
 # sequence-calculator
+
 abstract and easy way how to work with byte sequences in JS
 
 [![build][circle.ci-master-badge]][circle.ci-master] [![coverage][codecov.io-master-badge]][codecov.io-master]
@@ -30,7 +31,8 @@ abstract and easy way how to work with byte sequences in JS
 
 ### how to execute tests
 
-`$ npm test` or, to execute tests with coverage `npm test -- --coverage`
+* `$ npm test`
+* to execute tests with coverage `npm test -- --coverage`
 
 ### how to use
 
