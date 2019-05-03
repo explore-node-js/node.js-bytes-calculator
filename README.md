@@ -24,7 +24,7 @@ abstract and easy way how to work with byte sequences in JS
 
 ### used technologies
 
-* [jest](https://facebook.github.io/jest/) - for tests
+* [jest](https://facebook.github.io/jest/) - only for tests
 
 ### used services
 
