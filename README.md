@@ -7,7 +7,7 @@
 
 abstract and easy way how to work with byte sequences in JS
 
-[![build][ci.tests-master-badge]][ci.tests-master] [![coverage][ci.coverage-master-badge]][i.coverage-master]
+[![build][ci.tests-master-badge]][ci.tests-master] [![coverage][ci.coverage-master-badge]][ci.coverage-master]
 
 ### how to install
 
