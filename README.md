@@ -1,13 +1,13 @@
-[circle.ci-master-badge]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master.svg?style=svg
-[circle.ci-master]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master
-[codecov.io-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
-[codecov.io-master]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
+[ci.tests-master-badge]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master.svg?style=svg
+[ci.tests-master]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master
+[ci.coverage-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
+[ci.coverage-master]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
 
 # sequence-calculator
 
 abstract and easy way how to work with byte sequences in JS
 
-[![build][circle.ci-master-badge]][circle.ci-master] [![coverage][codecov.io-master-badge]][codecov.io-master]
+[![build][ci.tests-master-badge]][ci.tests-master] [![coverage][ci.coverage-master-badge]][i.coverage-master]
 
 ### how to install
 
