@@ -13,7 +13,6 @@ abstract and easy way how to work with byte sequences in JS
 [![coverage][ci.coverage-master-badge]][ci.coverage-master]
 [![coverage][npm.package-badge]][npm.package]
 
-
 ### how to install
 
 `$ npm i sequence-calculator` or `yarn add sequence-calculator`
