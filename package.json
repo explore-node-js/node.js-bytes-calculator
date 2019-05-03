@@ -1,11 +1,11 @@
 {
     "name": "byte-sequence-calculator",
-    "version": "2.0.3",
-    "description": "byte sequence calculator, allow use bitwise operations in functional programming as well as demonstration how bitwise operations works in London IT meetups",
+    "version": "2.0.4",
+    "description": "abstracted byte sequence calculator for node.js, byte sequence calculator which allow use bitwise operations in functional programming",
     "main": "src/byte_sequence_calc.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/explore-node-js/node.js-byte-flag-calculator.git"
+        "url": "git+https://github.com/explore-node-js/node.js-bytes-calculator.git"
     },
     "engines": {
         "node": ">=6"

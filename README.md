@@ -2,12 +2,16 @@
 [ci.tests-master]: https://circleci.com/gh/explore-node-js/node.js-bytes-calculator/tree/master
 [ci.coverage-master-badge]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator/branch/master/graph/badge.svg
 [ci.coverage-master]: https://codecov.io/gh/explore-node-js/node.js-bytes-calculator
+[npm.package-badge]: https://badge.fury.io/js/byte-sequence-calculator.svg
+[npm.package]: https://www.npmjs.com/package/byte-sequence-calculator
 
 # sequence-calculator
 
 abstract and easy way how to work with byte sequences in JS
 
-[![build][ci.tests-master-badge]][ci.tests-master] [![coverage][ci.coverage-master-badge]][i.coverage-master]
+[![build][ci.tests-master-badge]][ci.tests-master]
+[![coverage][ci.coverage-master-badge]][ci.coverage-master]
+[![coverage][npm.package-badge]][npm.package]
 
 ### how to install
 
@@ -20,7 +24,7 @@ abstract and easy way how to work with byte sequences in JS
 
 ### used technologies
 
-* [jest](https://facebook.github.io/jest/) - for tests
+* [jest](https://facebook.github.io/jest/) - only for tests
 
 ### used services
 
