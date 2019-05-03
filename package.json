@@ -1,7 +1,7 @@
 {
     "name": "byte-sequence-calculator",
     "version": "2.0.4",
-    "description": "byte sequence calculator, allow use bitwise operations in functional programming as well as demonstration how bitwise operations works in London IT meetups",
+    "description": "abstracted byte sequence calculator for node.js, byte sequence calculator which allow use bitwise operations in functional programming",
     "main": "src/byte_sequence_calc.js",
     "repository": {
         "type": "git",
